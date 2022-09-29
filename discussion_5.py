@@ -79,7 +79,7 @@ class TestAllMethods(unittest.TestCase):
 		self.assertEqual(add_item(self.item2))
 		self.assertEqual(add_item(self.item3))
 		self.assertEqual(add_item(self.item4))
-		
+		self.assertEqual(add_item(self.item5))
 
 
 	## Check to see whether warehouse correctly returns the item with the most stock
